@@ -63,6 +63,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
+  background-image: linear-gradient(grey, white);
 }
 .states img {
   width: 90%;
@@ -108,19 +109,7 @@ main {
   grid-column: 2/3;
   grid-row: 3/4;
 }
-
 #alaska {
-  background-image: linear-gradient(rgb(9, 138, 189), rgb(45, 170, 45));
-}
-#arizona {
-  background-image: linear-gradient(rgb(213, 216, 33), rgb(155, 117, 13));
-}
-#arkansas {
-  background-image: linear-gradient(rgb(79, 206, 79), rgb(185, 152, 43));
-}
-#connecticut {
-  background-image: linear-gradient(rgb(88, 196, 88), grey);
-}
-#dakotapld {
-  background-image: linear-gradient(rgb(216, 213, 25), rgb(199, 168, 28));
+  border-top: rgb(56, 179, 56) solid 10px;
+  border-left: rgb(67, 160, 223) solid 10px;
 }
