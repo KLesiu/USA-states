@@ -66,8 +66,8 @@ main {
   background-image: linear-gradient(grey, white);
 }
 .states img {
-  width: 90%;
-  height: 90%;
+  width: 500px;
+  height: 400px;
   grid-column: 3/4;
   grid-row: 1/4;
   margin-top: 20px;
