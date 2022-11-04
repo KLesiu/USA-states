@@ -58,10 +58,12 @@ nav ul > li {
   border-bottom: white 10px solid;
   border-left: 1px dashed black;
 }
-nav ul > li:first-child {
+nav ul > li:first-child,
+.licencja_nav {
   border-left: 1px black dashed;
 }
-nav ul > li:last-child {
+nav ul > li:last-child,
+.licencja_nav {
   border-top: 10px black solid;
   border-bottom: 10px black solid;
   background-image: linear-gradient(rgb(8rgb (206, 206, 206), 82), white);
