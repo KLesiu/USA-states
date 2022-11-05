@@ -125,7 +125,7 @@ main {
   margin-top: 50px;
   padding: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 3fr;
   grid-template-rows: 1fr 1fr 1fr;
   background-image: linear-gradient(grey, white);
 }
@@ -145,7 +145,7 @@ main {
   grid-row: 1/2;
 }
 .states h2 {
-  font-size: 60px;
+  font-size: 40px;
   text-align: left;
   margin-top: auto;
   margin-bottom: auto;
