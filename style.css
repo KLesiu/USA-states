@@ -39,7 +39,6 @@ nav {
   width: 100%;
   background-image: linear-gradient(rgb(206, 206, 206), grey);
   box-shadow: 5px 5px 5px;
-  height: 100px;
 }
 nav ul {
   display: flex;
@@ -54,6 +53,7 @@ nav ul {
 nav ul > li {
   border-right: 1px dashed black;
   padding: 20px;
+  height: 100%;
   border-top: red 10px solid;
   border-bottom: white 10px solid;
   border-left: 1px dashed black;
@@ -65,6 +65,7 @@ nav ul > li:first-child,
 nav ul > li:last-child,
 .licencja_nav {
   border-top: 10px black solid;
+
   border-bottom: 10px black solid;
   background-image: linear-gradient(rgb(8rgb (206, 206, 206), 82), white);
 }
@@ -91,6 +92,7 @@ ul > li > ul > li:first-child {
 }
 aside {
   width: 95%;
+
   background-color: rgb(196, 14, 14);
   color: rgb(255, 255, 255);
   padding: 10px;
@@ -117,6 +119,8 @@ main {
 }
 .states {
   width: 90%;
+  min-height: 40vh;
+  max-height: 70vh;
   box-shadow: 5px 5px 5px rgb(56, 56, 56);
   margin-top: 50px;
   padding: 10px;
@@ -258,7 +262,7 @@ a {
   box-shadow: 0 0 48px 2px black;
   margin: 10px;
   overflow: hidden;
-  max-width: 200px;
+  max-width: 20%;
   max-height: 150px;
   transform: scale(1);
   transition: transform 0.3s;
