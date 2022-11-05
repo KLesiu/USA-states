@@ -228,7 +228,6 @@ a {
 .galeria {
   background-image: linear-gradient(rgb(186, 193, 196), rgb(97, 97, 97));
   min-height: 100vh;
-  min-width: 900px;
   display: flex;
   color: white;
   flex-direction: column;
