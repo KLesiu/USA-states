@@ -351,16 +351,3 @@ a {
     opacity: 0;
   }
 }
-/* @media screen and (max-width: 480px) {
-  .states {
-    height: 60vh;
-    width: 100vw;
-  }
-  .ul3 {
-    font-size: 25px;
-  }
-  .popup img {
-    width: 100vw;
-    height: 50vh;
-  }
-} */
